@@ -14,9 +14,10 @@ log = logging.getLogger("plugin-charts")
 class ChartsPlugin(LunaPlugin):
     manifest = PluginManifest(
         name="plugin-charts",
+        shown_name="Charts",
         icon="bar-chart-3",
         image="assets/icon.png",
-        version="0.1.1",
+        version="0.1.2",
         description="Interactive Chart.js charts rendered inline in the chat.",
     )
 
